@@ -47,3 +47,5 @@ CREATE Gestion-Stock-FrontEnd/src/app/app.component.scss (0 bytes)
 
 ]
 
+### Création de Composant
+- ng g component xyz
