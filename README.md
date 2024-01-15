@@ -16,11 +16,18 @@ dans le CMD executer la commande
 ## Etapes de creation de projet:
 ###  Creeation de nouveau projet Angular cli:
 - ng new Gestion-Stock-Front 
-- Souhaitez-vous ajouter le routage angulaire ? (o/N) entrez y
-- Quel format de feuille de style souhaitez-vous utiliser ? Sélectionnez CSS
-image.png
 
-### AJout de Bootstrap au projet:
+\GestionDeStock> ng new Gestion-Stock-FrontEnd      
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+CREATE Gestion-Stock-FrontEnd/angular.json (3303 bytes)
+........
+CREATE Gestion-Stock-FrontEnd/src/app/app.component.scss (0 bytes)
+✔ Packages installed successfully.
+    Directory is already under version control. Skipping initialization of git.
+
+
+### Ajout de Bootstrap au projet:
 - npm install bootstrap bootstrap-icons
 - dans Angular.json modifié le styles et le scripts: 
 
