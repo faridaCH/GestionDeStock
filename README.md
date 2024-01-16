@@ -49,3 +49,17 @@ CREATE Gestion-Stock-FrontEnd/src/app/app.component.scss (0 bytes)
 
 ### Création de Composant
 - ng g component xyz
+### Ajout de Font Awesome  à angular pour les icones 
+- npm install --save @fortawesome/fontawesome-free
+- Dans Angular.json ajouter la ligne suivante dans styles:  "node_modules/@fortawesome/fontawesome-free/css/all.css","node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+
+            "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+
+              "src/styles.scss"
+            ],
