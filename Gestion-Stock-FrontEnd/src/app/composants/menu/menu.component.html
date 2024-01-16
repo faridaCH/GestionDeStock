@@ -1,0 +1,20 @@
+
+<div class="card  mt-2" *ngFor="let menu of menuProperties">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    [attr.data-bs-target]="'#panelsStayOpen-collapseThree'+ menu.id" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    <strong>{{menu.titre}}</strong>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree{{menu.id}}" class="accordion-collapse collapse" *ngFor="let sousMenu of menu.sousMenu">
+                <div class="accordion-body">
+                    {{sousMenu.titre}}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
