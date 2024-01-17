@@ -10,9 +10,14 @@
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree{{menu.id}}" class="accordion-collapse collapse" *ngFor="let sousMenu of menu.sousMenu">
-                <div class="accordion-body">
-                    {{sousMenu.titre}}
-                    
+                <div class="accordion-body  pt-2 pb-1 ">
+                    <div class="card" style="width: 200px">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                               <a>{{ sousMenu.titre }}</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
