@@ -1,12 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { MenuObject } from './menuObject';
+import { Component, OnInit } from "@angular/core";
+import { MenuObject } from "./menuObject";
+import { Router } from "@angular/router";
+
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
 })
+
+
 export class MenuComponent implements OnInit {
+
   public menuProperties: Array<MenuObject> = [
     {
       id: '1',
@@ -120,9 +125,15 @@ export class MenuComponent implements OnInit {
   ];
   
 
-  constructor() { }
+  constructor(
+    private router: Router 
+  ) { }
 
   ngOnInit(): void {
   }
+
+  navigate(url?: string): void  {
+    this.router.navigate([url]);
+    }
 
 }
