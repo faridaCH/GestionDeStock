@@ -16,20 +16,20 @@ export class MenuComponent implements OnInit {
     {
       id: '1',
       titre: 'Tableau de bord',
-      icon: '',
+      icon: 'fas fa-chart-line',
       url: '',
       sousMenu: [
         {
           id: '11',
           titre: 'Vue d\'ensemble',
-          icon: '',
+          icon: 'fas fa-chart-pie',
           url: '',
           
         },
         {
           id: '12',
           titre: 'Statistiques',
-          icon: '',
+          icon: 'fas fa-chart-bar',
           url: '',
           
         }
@@ -39,20 +39,20 @@ export class MenuComponent implements OnInit {
     {
       id: '2',
       titre: 'Articles',
-      icon: '',
+      icon: 'fas fa-boxes',
       url: '',
       sousMenu: [
         {
           id: '21',
           titre: 'Articles',
-          icon: '',
+          icon: 'fas fa-boxes',
           url: '',
           
         },
         {
           id: '22',
           titre: 'Mouvement de stock',
-          icon: '',
+          icon: 'fas fa-dolly',
           url: '',
           
         }
@@ -62,19 +62,19 @@ export class MenuComponent implements OnInit {
     {
       id: '3',
       titre: 'Clients',
-      icon: '',
+      icon: 'fas fa-user-tie',
       url: '',
       sousMenu: [
         {
           id: '31',
           titre: 'Clients',
-          icon: '',
+          icon: 'fas fa-user-tie',
           url: '',
         },
         {
           id: '32',
           titre: 'Commandes Clients',
-          icon: '',
+          icon: 'fas fa-truck-loading',
           url: '',
         }
       ]
@@ -89,13 +89,13 @@ export class MenuComponent implements OnInit {
         {
           id: '41',
           titre: 'Fournisseurs',
-          icon: '',
+          icon: 'fas fa-user-secret',
           url: '',
         },
         {
           id: '42',
           titre: 'Commandes Fournisseurs',
-          icon: '',
+          icon: 'fas fa-cubes',
           url: '',
         }
       ]
@@ -104,19 +104,19 @@ export class MenuComponent implements OnInit {
     {
       id: '5',
       titre: 'Parametrages',
-      icon: '',
+      icon: 'fas fa-users-cog',
       url: '',
       sousMenu: [
         {
           id: '51',
           titre: 'Cathegories',
-          icon: '',
+          icon: 'fas fa-swatchbook',
           url: '',
         },
         {
           id: '52',
           titre: 'Utilisateurs',
-          icon: '',
+          icon: 'fas fa-user-edit',
           url: '',
         }
       ]

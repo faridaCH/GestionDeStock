@@ -6,7 +6,8 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     [attr.data-bs-target]="'#panelsStayOpen-collapseThree'+ menu.id" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree">
-                    <strong>{{menu.titre}}</strong>
+                    <i class="{{menu.icon}}"></i>&nbsp; 
+                    <strong> {{menu.titre}}</strong>
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree{{menu.id}}" class="accordion-collapse collapse" *ngFor="let sousMenu of menu.sousMenu">
@@ -14,7 +15,8 @@
                     <div class="card" style="width: 200px">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
-                                <a>{{ sousMenu.titre }}</a>
+                                <i class="{{sousMenu.icon}}"></i>&nbsp;
+                                <a (click)="navigate(sousMenu.url)">  {{ sousMenu.titre }}</a>
                             </li>
                         </ul>
                     </div>
