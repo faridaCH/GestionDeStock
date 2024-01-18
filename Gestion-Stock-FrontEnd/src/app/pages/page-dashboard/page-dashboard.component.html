@@ -1,6 +1,6 @@
 <div class="main-container">
     <div class="row min-height-600 no-flex-wrap">
-        <div class="card col-md-2 mr-size ">
+        <div class="card col-md-2 mr-size">
             <div >
                 <div class="row mt-5 text-center min-height-80">
                     <h4> Gestion du stock V1.0</h4>
@@ -11,14 +11,14 @@
             </div>
         </div>
 
-        <div class="card col-md-10 pl-pr-0 background-grey border-none">
+        <div class="card col-md-10 pl-pr-0 background-grey border-none ">
             <div class="col d-flex flex-column justify-content-between ">
                 <div class="card min-height-80 mb-2">
                     header
                 </div>
 
                 <div class="card mb-2 min-height-600">
-                    main container
+                    <router-outlet></router-outlet>
                 </div>
                 <div class="card min-height-80">
                     footer
@@ -27,5 +27,3 @@
         </div>
     </div>
 </div>
-
-<router-outlet></router-outlet>

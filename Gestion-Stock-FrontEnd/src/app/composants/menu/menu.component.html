@@ -12,11 +12,11 @@
             </h2>
             <div id="panelsStayOpen-collapseThree{{menu.id}}" class="accordion-collapse collapse" *ngFor="let sousMenu of menu.sousMenu">
                 <div class="accordion-body  pt-2 pb-1 ">
-                    <div class="card" style="width: 200px">
+                    <div class="card" style="width: 235px">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
                                 <i class="{{sousMenu.icon}}"></i>&nbsp;
-                                <a (click)="navigate(sousMenu.url)">  {{ sousMenu.titre }}</a>
+                                <a href="javascript:void(0)" (click)="navigate(sousMenu.url)">  {{ sousMenu.titre }}</a>
                             </li>
                         </ul>
                     </div>

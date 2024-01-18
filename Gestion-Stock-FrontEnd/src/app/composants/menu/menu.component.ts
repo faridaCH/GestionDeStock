@@ -30,7 +30,7 @@ export class MenuComponent implements OnInit {
           id: '12',
           titre: 'Statistiques',
           icon: 'fas fa-chart-bar',
-          url: '',
+          url: 'statistiques',
           
         }
       ]
