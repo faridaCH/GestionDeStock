@@ -116,5 +116,7 @@
       }
     }
   },
-  "defaultProject": "Gestion-Stock-FrontEnd"
+  "cli": {
+    "analytics": "24bb8641-fce9-4722-b411-c8dd4b66343d"
+  }
 }
