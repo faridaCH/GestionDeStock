@@ -63,3 +63,10 @@ CREATE Gestion-Stock-FrontEnd/src/app/app.component.scss (0 bytes)
 
               "src/styles.scss"
             ],
+### changement de version Angular : 
+- Dans la version 16 de angular on n'utilise plus besoin de la configuration .browserslistrc
+- les urls pour le choix des versions les plus utilisés:
+* angular cli : https://www.npmjs.com/package/@angular/cli?activeTab=versions
+* angular core : https://www.npmjs.com/package/@angular/core?activeTab=versions
+
+- ng update @angular/cli@16.2.11 @angular/core@16.2.12

@@ -83,7 +83,7 @@ export class MenuComponent implements OnInit {
     {
       id: '4',
       titre: 'Fournisseurs',
-      icon: '',
+      icon: 'fas fa-user-secret',
       url: '',
       sousMenu: [
         {
